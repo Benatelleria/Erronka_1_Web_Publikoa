@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontaktua | ZubiTek</title>
+  <meta name="description" content="Jarri harremanetan ZubiTekekin: formularioa, helbidea, telefonoa eta posta.">
+  <link rel="stylesheet" href="css/estiloak.css">
+</head>
+<body>
+
+  <!-- Menua: orri guztietan berdina -->
+  <header class="menua">
+    <div class="edukiontzia">
+      <a class="logoa" href="index.html" aria-label="ZubiTek - hasierara"><img src="img/logoa.png" alt="ZubiTek logoa"></a>
+      <nav aria-label="Menu nagusia">
+      <ul>
+        <li><a class="lotura" href="nor-gara.html">Nor gara</a></li>
+        <li><a class="lotura" href="misioa.html">Misioa</a></li>
+        <li><a class="lotura" href="zerbitzuak.html">Zerbitzuak</a></li>
+        <li><a class="lotura" href="kolaboratzaileak.html">Kolaboratzaileak</a></li>
+        <li><a class="lotura" href="kontaktua.html" aria-current="page">Kontaktua</a></li>
+        <!-- Intranetera lotura: intraneta eginda dagoenean aldatu href-a -->
+        <li><a class="botoia" href="#">Intranetera sartu</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="orri-goiburua">
+      <div class="edukiontzia">
+        <h1>Kontaktua</h1>
+        <p>Idatzi iezaguzu eta lehenbailehen erantzungo dizugu.</p>
+      </div>
+    </section>
+
+    <section class="atala">
+      <div class="edukiontzia">
+        <div class="kontaktu-sareta">
+          <div>
+            <h2>Bidali mezua</h2>
+          <form action="#" method="post">
+            <div class="eremua">
+              <label for="izena">Izena</label>
+              <input type="text" id="izena" name="izena" required autocomplete="name">
+            </div>
+            <div class="eremua">
+              <label for="posta">Posta elektronikoa</label>
+              <input type="email" id="posta" name="posta" required autocomplete="email">
+            </div>
+            <div class="eremua">
+              <label for="mezua">Mezua</label>
+              <textarea id="mezua" name="mezua" required></textarea>
+            </div>
+            <button class="botoia" type="submit">Bidali</button>
+          </form>
+          </div>
+          <div class="datuak">
+            <h2>Gure datuak</h2>
+          <dl>
+            <dt>Helbidea</dt>
+            <dd>Zubi kalea 1, [herria]</dd>
+            <dt>Telefonoa</dt>
+            <dd>+34 900 000 000</dd>
+            <dt>Posta elektronikoa</dt>
+            <dd><a href="mailto:info@zubitek.eus">info@zubitek.eus</a></dd>
+          </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="atala hondoa">
+      <div class="edukiontzia">
+        <div class="qr-sarbidea">
+          <article class="txartela">
+            <h3>Web publikoa</h3>
+            <img src="img/qr-kodea.png" alt="QR kodea: ZubiTek web publikoaren hasierara eramaten du" width="180" height="180">
+            <p>Eskaneatu QR kodea gure hasierako orrira joateko.</p>
+          </article>
+          <article class="txartela">
+            <h3>Intraneta</h3>
+            <p>Langileentzako sarbidea. Saioa hasteko sakatu botoia.</p>
+            <a class="botoia" href="#">Intranetera sartu</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Oina: orri guztietan berdina -->
+  <footer class="oina">
+    <div class="edukiontzia">
+      <p>&copy; 2026 ZubiTek &middot; Ingurumenarekiko konpromisoa: ekipoak berrerabili eta hondakinak murriztu.</p>
+      <ul>
+        <li><a href="index.html">Hasiera</a></li>
+        <li><a href="zerbitzuak.html">Zerbitzuak</a></li>
+        <li><a href="kontaktua.html">Kontaktua</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
